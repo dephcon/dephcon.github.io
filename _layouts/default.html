@@ -31,6 +31,12 @@
         {{ content }}
       </section>
     </div>
+	  
+    <div class="container">
+      <section id="link_content">
+        {% include footer.html %}
+      </section>
+    </div>
 
     {% if site.google_analytics %}
       <script>
@@ -42,7 +48,7 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    {% include footer.html %}   
+       
 	  
   </body>
   <footer class="site-footer">
